@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutRight"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dashboard1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/B_tela1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="What if" />
+
+        <Button
+            android:id="@+id/B_tela2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="HypeScience" />
+
+        <Button
+            android:id="@+id/B_sobre"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Sobre" />
+   
+            <Button
+                android:id="@+id/B_desenvolvedor"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvedor" />
+
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>        
